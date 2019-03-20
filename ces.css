@@ -9,6 +9,19 @@
     justify-content: left;
 }
 
+.derecha {
+    display: flex;
+    justify-content: right;
+}
+
+.de {
+	float: right;
+}
+
+.norm {
+	float: left;
+}
+
 .bloque {
     display: inline-block;
 }
@@ -57,4 +70,13 @@
 	text-align: center;
 }
 
-.bitmap {	height: 40px;	width: 122px;}
+.combined-shape {	height: 69.95px;	width: 75.23px;}
+
+.bg-cookies-beige {	height: 103px;	width: 320px;	opacity: 0.9;	border-radius: 6px 0 0 6px;	background-color: #FBFAF9;	box-shadow: 0 3px 4px 0 rgba(193,193,193,0.5);}
+
+
+.te-informamos-que-es {	height: 36px;	width: 236px;	color: #808080;	font-family: "Brandon Grotesque";	font-size: 13px;	line-height: 18px;}
+
+.rectangle-22 {	height: 28px;	width: 250px;	border: 1px solid #979797;	border-radius: 6px;	background-color: #F8F7F6;}
+
+.aceptar {	height: 15px;	width: 164.66px;	color: #808080;	font-family: "Brandon Grotesque";	font-size: 12px;	font-weight: 500;	line-height: 18px;	text-align: center;}
