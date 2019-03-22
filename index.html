@@ -1,167 +1,108 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
+
+<head>
+    <title>Bootstrap Naturitas</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="ces.css">
-    <title>Hello, world!</title>
-  </head>
-  <body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
     
-    <div class="centrar rectangle-24">
-        <img src="delivery-box.svg" />
-        Envío Gratis a partir de 45€
-      </div>
-    
+    <!-- header  -->
+    <div class="row">
 
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!--<a class="navbar-brand" href="#"></a>-->
-    
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          
-          <!--<span class="navbar-toggler-icon"></span>-->
-
-            <img src="menu_mobile.svg" />
-
-
-        </button> 
-                <img src="telephone.svg" />
-                <img src="Logo.svg" />
-                <img src="icono-cuenta.svg" />
-    <!--
-                <div>
-                        <img class="oval" src="oval.png" ><span>12</span></img>
-                        <img src="cart.svg" />
-                </div>
-                
-    -->
-    <img src="cart.svg" />
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-
-
+        <!-- div gris -->
+        <div class="rectangle-24 col-12 col-lg-12">          
+            <p class="envio-gratis-a-parti claseVisible"> <img class="shape" src="imagenes/delivery-box.svg">¿Necesitas ayuda? 9491951995</p>            
+            <p class="envio-gratis-a-parti"> <img class="shape" src="imagenes/delivery-box.svg"> Envio gratis a partir de 45€</p>         
+            <p class="envio-gratis-a-parti claseVisible"> <img class="shape" src="imagenes/delivery-box.svg"> 30 de plazo-Devolución gratuita</p>
         </div>
 
+        <!-- navbar desplegable -->
+        <div class="col-2 col-sm-2 col-lg-12">
 
-        <form class="form-inline my-2 my-lg-0">
-            <div>
-                <input class="form-control mr-sm-2" type="search" placeholder="¿Qué buscas hoy?" aria-label="Search">
-            </div>
-        
-                <button class="btn btn-outline-success my-2 my-sm-0 bg-button" type="submit"><img src="search.svg"/></button>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="sinborde navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <img class="fill-1" src="imagenes/menu_mobile.svg">
+                </button>
+
+                <!-- navbar opciones del menú -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#">SUPLEMENTOS<span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">PLANTAS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">ALIMENTACIÓN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">COSMÉTICA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">HIGIENE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">MAMÁ Y BEBE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">HIGIENE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">HUERTO</a></li>
+                    </ul>
+                </div>
+            </nav>
             
-        </form>
-   
-
-
-      </nav>
-
-
-      <div class="rectangle-18">
-            <!-- Content here -->
-            <span class="promociones-de-invi">¡Promociones de invierno! Gastos de envío gratis para cosmética</span>
-          </div>
-
-
-         <div class="cen centrar">
-                <!-- Content here -->
-         <!--   <img class="cen" src="montaje_productos.jpg" />-->
-         <br>
-              <div class="rebajas-70">Rebajas -70%</div><!-- <div class="rebajas-70 pt-2">Rebajas -70%</div> -->
-              <br>
-              
-              <div class="hasta-50-en-product">Hasta 50% en productos seleccionados</div>
-              <br>
-              <div>
-              <button class="rectangle-7" type="submit"><span class="compra-ya">COMPRA YA</span></button>
-            </div>
-              
-              
-              <br>
-              <br>
-              <br>
         </div>
+      
+        <!-- div que contiene las imágenes del navbar -->
+        <div class="imagenes col-9 col-sm-9 col-lg-12">
+            <div class="row">
+                <!-- mobile -->
+                <div class="col-1 col-sm-1 visible"><img class="oval-3" src="imagenes/telephone.svg"></div>               
+                <div class="col-6 col-sm-5 col-lg-5"><img class="fill-7" src="imagenes/logo_naturitas.svg"></div>
+                <div class="col-2 col-sm-4 col-lg-4 nav-item visible"><img src="imagenes/iconoCuenta.svg"></div>
 
-<br>
-
-        <div class="mask">
-
-            <div class="bloque">
-                <img src="Bitmap.jpg" />
-
-                <div class="alimentos-sanos-y-ec">
-                  Alimentos sanos y ecológicos
+                <!-- desktop -->
+                <div class="col-2 col-sm-4 col-lg-4 nav-item dropdown claseVisible">
+                    <a class="nav-link dropdown-toggle texto" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="imagenes/iconoCuenta.svg">mi Cuenta
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#">Lorem</a></div>                        
                 </div>
 
+                <!-- mobile -->
+                <div class="col-2 col-sm-2 col-lg-2"><img class="fill-1" src="imagenes/cart.svg"></div>
             </div>
-
-<!--
-        <div class="bloque">
-          <img class="combined-shape" src="Oval.png" />
-        </div>
--->
-          <div class="de">
-                <img src="patatas.png" />
-              </div>
-
-                <!--
-            <div class="alimentos-sanos-y-ec">
-                    Alimentos sanos y ecológicos
-            </div>
-        -->       
-        
-
         </div>
 
-
-<br>
-
-<!--
-        <div class="bg-cookies-beige">
-
-          <div class="te-informamos-que-es">
-              Te informamos que esta web usa cookies y si continúas navegando, aceptas su uso. 
-          </div>
-                 
-          <button class="rectangle-22" type="submit"><span class="aceptar">ACEPTAR</span></button>
-
+        <!-- barra de búsqueda -->
+        <div class="col-12 col-sm-12 col-lg-6">
+            <form class="form-group input-group">
+                <input type="text" class="form-control bg-busca" placeholder="¿Qué buscas hoy?">
+                <span class="input-group-btn">
+                    <button class="bg-button" type="button">
+                        <span class=""> <img class="search-material" src="imagenes/search.svg"> </span>
+                    </button>
+                </span>
+            </form>
         </div>
--->
 
+    </div>
 
+    <!-- div promoción -->
+    <div class="rectangle-18 col-xs-4">
+        <p class="promociones-de-invi">¿Promociones de invierno! Envio gratis para Cosmética</p>
+    </div>
 
+    <!-- div con imagen de fondo y elementos dentro -->
+    <div class="i-stock-637899066">
+        <p class="rebajas-70">Rebajas -70%</p>
+        <p class="hasta-50-en-product">Hasta 50% en productos seleccionados</p>
+        <button type="button" class="btn btn-info">COMPRA YA</button>
+    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <!-- div elementos de marca de producto, texto, descuento e imagen patatas -->
+    <div class="mask">
+        <img class="bitmap2" src="imagenes/Bitmap.jpg">
+        <img class="bitmap" src="imagenes/baner.png">
+        <img class="combined-shape" src="imagenes/sello.svg">
+        <p class="alimentos-sanos-y-ec">Alimentos sanos y ecológicos</p>
+    </div>
+
+</body>
 </html>
