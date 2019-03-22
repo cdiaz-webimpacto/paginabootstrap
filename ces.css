@@ -111,7 +111,13 @@
 
 .ofertas {	color: #EE7D6D;	}
 
+.rectangle-7 {	height: 31.81px;	width: 129.9px;	border-radius: 6px;	background-color: #5CB8A3;	box-shadow: 0 2px 0 0 #529888;}
+
 .rectangle-13 {	height: 50px;	width: 115px;	border: 1px solid #F2F2F2;	border-radius: 6px;}
+
+.negro {color: #4A4A4A;}
+
+.mi-input::placeholder { color: black; }
 
 .espacio {
     margin-top: 1.2%;
