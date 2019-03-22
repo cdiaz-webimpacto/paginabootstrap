@@ -113,58 +113,12 @@
     text-align: center;
 }
 
-.mask {	
-    margin-top: 20px;
-    position: relative;
-    height: 100px;	
-    width: 300px;	
-    border-radius: 6px;	
-    background-color: rgb(240, 239, 239);
-    background-size: cover;
-    background-position: center;
-    z-index: -2;
-}
-
-.bitmap {	
-    position: absolute; 
-    height: 101px;	
-    width: 198px;
-    margin-left: 50%;
-    z-index: -1;
-}
-
-.bitmap2 {	
-    position: absolute; 
-    height: 40px;	
-    width: 122px;
-    margin: auto;
-    z-index: -1;
-}
-
-.alimentos-sanos-y-ec {	
-    position: absolute;
-    margin-top: 15%;
-    height: 40px;	
-    width: 145px;	
-    color: #4A4A4A;  
-    font-family: "Brandon Grotesque";	    
-    font-size: 16px;	    
-    font-weight: 500;	
-    line-height: 20px;	
-    text-align: center;
-    z-index: -1;
-}
-
-.combined-shape {	
-    position: absolute;
-    height: 69.95px;	
-    width: 75.23px;
-    margin-left: 150px;
-    z-index: 1;
-}
-
 .visible {
     display: inline;
+}
+
+.espacio {
+    margin-top: 1.2%;
 }
 
 

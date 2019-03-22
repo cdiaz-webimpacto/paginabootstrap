@@ -25,14 +25,15 @@
         </div>
 
         <!-- navbar desplegable -->
-        <div class="col-2 col-sm-2 col-lg-12">
+        <div class="col-2 col-sm-2 visible">
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <button class="sinborde navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <img class="fill-1" src="imagenes/menu_mobile.svg">
                 </button>
 
-                <!-- navbar opciones del menú -->
+             
+                  <!-- visible oculta para desktop -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active"><a class="nav-link" href="#">SUPLEMENTOS<span class="sr-only">(current)</span></a></li>
@@ -45,6 +46,7 @@
                         <li class="nav-item"><a class="nav-link" href="#">HUERTO</a></li>
                     </ul>
                 </div>
+           
             </nav>
             
         </div>
@@ -53,8 +55,25 @@
         <div class="imagenes col-9 col-sm-9 col-lg-12">
             <div class="row">
                 <!-- mobile -->
-                <div class="col-1 col-sm-1 visible"><img class="oval-3" src="imagenes/telephone.svg"></div>               
-                <div class="col-6 col-sm-5 col-lg-5"><img class="fill-7" src="imagenes/logo_naturitas.svg"></div>
+                <div class="col-1 col-sm-1 visible"><img class="oval-3" src="imagenes/telephone.svg"></div>   
+                
+                <!-- mobile -->
+                <div class="col-6 col-sm-5 visible"><img class="fill-7" src="imagenes/logo_naturitas.svg"></div>
+                <!-- desktop -->
+                <div class="col-lg-2 claseVisible"><img src="imagenes/logo_naturitas.svg"></div>
+
+                <!-- barra busqueda desktop -->
+                <div class="col-lg-3 claseVisible">
+                        <form class="form-group input-group">
+                            <input type="text" class="form-control bg-busca" placeholder="¿Qué buscas hoy?">
+                            <span class="input-group-btn">
+                                <button class="bg-button" type="button">
+                                    <span class=""> <img class="search-material" src="imagenes/search.svg"> </span>
+                                </button>
+                            </span>
+                        </form>
+                    </div>
+
                 <div class="col-2 col-sm-4 col-lg-4 nav-item visible"><img src="imagenes/iconoCuenta.svg"></div>
 
                 <!-- desktop -->
@@ -71,7 +90,8 @@
         </div>
 
         <!-- barra de búsqueda -->
-        <div class="col-12 col-sm-12 col-lg-6">
+        <!-- mobile -->
+        <div class="col-12 col-sm-12 visible">
             <form class="form-group input-group">
                 <input type="text" class="form-control bg-busca" placeholder="¿Qué buscas hoy?">
                 <span class="input-group-btn">
@@ -81,6 +101,32 @@
                 </span>
             </form>
         </div>
+
+        <!-- claseVisible oculta para mobile -->
+        <div class="col-lg-12 claseVisible">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+             
+             
+                  <!-- visible oculta para desktop -->
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#">SUPLEMENTOS<span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">PLANTAS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">ALIMENTACIÓN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">COSMÉTICA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">HIGIENE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">MAMÁ Y BEBE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">HIGIENE</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">HUERTO</a></li>
+                    </ul>
+                </div>
+           
+            </nav>
+            
+        </div>
+
+
 
     </div>
 
@@ -96,13 +142,21 @@
         <button type="button" class="btn btn-info">COMPRA YA</button>
     </div>
 
-    <!-- div elementos de marca de producto, texto, descuento e imagen patatas -->
-    <div class="mask">
-        <img class="bitmap2" src="imagenes/Bitmap.jpg">
-        <img class="bitmap" src="imagenes/baner.png">
-        <img class="combined-shape" src="imagenes/sello.svg">
-        <p class="alimentos-sanos-y-ec">Alimentos sanos y ecológicos</p>
-    </div>
+    <!-- máscara -->
+    <div class="flexible d-flex justify-content-around espacio">
+        <!-- mobile -->
+            <div class="visible">
+                    <img src="imagenes/bannerp_01_mob.jpg">
+                    
+            </div>
+            <!-- desktop -->
+        <div class="mask claseVisible">
+                <img src="imagenes/banner_01.jpg">
+        </div>
+    
+        <div class="mask2 claseVisible">
+                <img src="imagenes/bannerp_02.jpg">
+        </div>
 
 </body>
 </html>
